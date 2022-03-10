@@ -1,8 +1,8 @@
-#Dasar Menggunakan Bahasa Program HTML<hr>
+# Dasar Menggunakan Bahasa Program HTML<hr>
 
 
 ![perintah](image/2022-03-10.png)
-###Perbedaan tag `<p>` dan `<br>`?
+### Perbedaan tag `<p>` dan `<br>`?
 
 Fungsi dari tag `<p>` membuat paragraf baru, sedangkan `<br>` membuat paragraf baru dan memberikan jarak pada paragraf pertama yang telah dibuat dengan menggunakan tag`<p>`.
 ![penjelasan <p> dan <br>](image/non%20align1.png)
@@ -23,3 +23,17 @@ Fungsi dari tag `<p>` membuat paragraf baru, sedangkan `<br>` membuat paragraf b
         tag dasar html.
     </p>
 ```
+
+### Perbedaan atriburt dari tag `title` dan `alt` pada tag `<img>`
+
+Jika menggunakan atribut `title` maka saat crusor berada tepat digambar akan muncul title dari gambar tersebut
+
+![title](image/title.png)
+```html
+<img src="LOGO UPB.png" width="200" title="Logo Universitas Pelita Bangsa">
+```
+Jika menggunakan atribut `alt` tidak bisa menampilkan title dari gambar tersebut
+```html
+<img src="LOGO UPB.png" width="200" alt="Logo Universitas Pelita Bangsa">
+```
+![alt](image/alt.png)
