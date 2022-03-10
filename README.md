@@ -42,4 +42,19 @@ Jika menggunakan atribut `alt` tidak bisa menampilkan title dari gambar tersebut
 Untuk mengukur panjang tidak harus disamakan dengan ukuran lebar gambar, bisa di ukur sepantas-pantasnya
 ![panjang x lebar gambar](image/width.png)
 ```html
-<img src="LOGO UPB.png" width="200" height="170" alt="Logo Universitas Pelita Bangsa">```
+<img src="LOGO UPB.png" width="200" height="170" alt="Logo Universitas Pelita Bangsa">
+```
+### Perbedaan 4 atribut target link _self,_blank,_parent,_top
+* `_self` - Bawaan. Membuka dokumen di jendela/tab yang sama dengan yang diklik <br>
+* `_blank` - Membuka dokumen di jendela atau tab baru<br>
+* `_parent` - Membuka dokumen di bingkai induk<br>
+* `_top` - Membuka dokumen di seluruh badan jendela<br>
+
+![_blank membuka tab baru](image/_blank.png) <br>
+![_parent membuka ditab yang sama](image/_parent.png)<br>
+```html
+<a href="http://www.google.com/" target="_self">Halaman Web Eksternal Google</a>
+<a href="http://www.google.com/" target="_blank">Halaman Web Eksternal Google</a>
+<a href="http://www.google.com/" target="_parent">Halaman Web Eksternal Google</a>
+<a href="http://www.google.com/" target="_top">Halaman Web Eksternal Google</a>
+```
