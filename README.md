@@ -37,3 +37,9 @@ Jika menggunakan atribut `alt` tidak bisa menampilkan title dari gambar tersebut
 <img src="LOGO UPB.png" width="200" alt="Logo Universitas Pelita Bangsa">
 ```
 ![alt](image/alt.png)
+
+### Menjelaskan atribut ukuran gambar dengan menggunakan `width` dan `height` atau panjan lebar
+Untuk mengukur panjang tidak harus disamakan dengan ukuran lebar gambar, bisa di ukur sepantas-pantasnya
+![panjang x lebar gambar](image/width.png)
+```html
+<img src="LOGO UPB.png" width="200" height="170" alt="Logo Universitas Pelita Bangsa">```
